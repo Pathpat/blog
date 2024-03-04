@@ -12,7 +12,13 @@
                     <a href="/admin/posts" class="{{request()->is('admin/posts') ? 'text-blue-500' : ''}}">All Posts</a>
                 </li>
                 <li>
+                    <a href="/admin/category" class="{{request()->is('admin/category') ? 'text-blue-500' : ''}}">All Categories</a>
+                </li>
+                <li>
                     <a href="/admin/posts/create" class="{{request()->is('admin/posts/create') ? 'text-blue-500' : ''}}">New Post</a>
+                </li>
+                <li>
+                    <a href="/admin/category/create" class="{{request()->is('admin/category/create') ? 'text-blue-500' : ''}}">New Category</a>
                 </li>
             </ul>
         </asside>
